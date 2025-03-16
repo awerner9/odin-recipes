@@ -17,8 +17,19 @@ ul li {
     list-style-type: none;
 }
 
+.list li {
+    border: 8px solid black;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.list li:hover {
+    background-color: bisque;
+}
+
 .list {
     font-size: 22px;
+    font-weight: bold;
 }
 
 a {
@@ -27,5 +38,5 @@ a {
 }
 
 a:hover {
-    color: blue;
+    color: red;
 }
